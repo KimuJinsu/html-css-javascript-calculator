@@ -85,6 +85,7 @@
 </html>
 ```
 ### 실행화면(html로 간단하게 버튼들만 표시)
+![ex_screenshot](./git/무제.gif)
 
 ### script.js
 
