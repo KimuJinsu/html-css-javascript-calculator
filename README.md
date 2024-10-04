@@ -130,6 +130,7 @@ function calculateResult() {
 }
 ```
 ### 실행화면(버튼을 누르면 디스플레이창에 표시하고 계산하는것을 구현)
+![ex_screenshot](./gif/무제2.gif)
 
 ### style.css
 
@@ -258,8 +259,4 @@ button:nth-last-child(4) {
 ```
 
 ### 실행화면()
-
-
-
-
-
+![ex_screenshot](./gif/무제3.gif)
