@@ -1,6 +1,6 @@
-아래는 계산기 js 코드입니다:
+아래는 계산기 JS 코드입니다:
 
-```CSS
+```JS
 function input(value) {
     const display = document.getElementById("display");
     display.value += value;
