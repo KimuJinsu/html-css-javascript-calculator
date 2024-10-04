@@ -84,7 +84,7 @@
 </body>
 </html>
 ```
-### 실행화면(html로 간단하게 버튼들만 표시)
+### 실행 화면 (계산기의 주요 버튼 UI)
 ![ex_screenshot](./gif/무제.gif)
 
 ### script.js
@@ -129,7 +129,7 @@ function calculateResult() {
     }
 }
 ```
-### 실행화면(버튼을 누르면 디스플레이창에 표시하고 계산하는것을 구현)
+### 실행 화면 (버튼을 눌러 디스플레이에 표시하고 계산하는 기능)
 ![ex_screenshot](./gif/무제2.gif)
 
 ### style.css
@@ -258,5 +258,5 @@ button:nth-last-child(4) {
 }
 ```
 
-### 실행화면()
+### 실행 화면 (CSS를 적용하여 버튼의 크기와 글꼴 색상 등 UI 스타일링 적용)
 ![ex_screenshot](./gif/무제3.gif)
