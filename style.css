@@ -1,6 +1,3 @@
-아래는 계산기 CSS 코드입니다:
-
-```CSS
 /* 계산기 뒤에 배경색깔 */
 body {
     background-color: #000000; 
@@ -122,4 +119,3 @@ button:nth-last-child(4) {
 .hex:hover {
     background-color: #ffa047; 
 }
-

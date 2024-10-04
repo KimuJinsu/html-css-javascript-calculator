@@ -1,6 +1,3 @@
-아래는 계산기 JS 코드입니다:
-
-```JS
 function input(value) {
     const display = document.getElementById("display");
     display.value += value;
@@ -39,4 +36,3 @@ function calculateResult() {
         display.value = "Error";
     }
 }
-
