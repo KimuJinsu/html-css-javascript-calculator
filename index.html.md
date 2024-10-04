@@ -1,3 +1,6 @@
+아래는 계산기 HTML 코드입니다:
+
+```html
 <!DOCTYPE html>
 <html lang="ko">
 <head>
