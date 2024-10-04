@@ -1,3 +1,6 @@
+아래는 계산기 css 코드입니다:
+
+```css
 /* 계산기 뒤에 배경색깔 */
 body {
     background-color: #000000; 
