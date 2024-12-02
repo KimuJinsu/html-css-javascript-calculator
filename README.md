@@ -1,14 +1,19 @@
-# Calculator Web Application
 
-이 프로젝트는 간단한 **계산기 웹 애플리케이션**입니다. HTML, CSS, JavaScript를 사용하여 계산기 기능을 구현하였으며, 16진수(HEX)와 10진수(DEC) 간의 변환도 지원합니다.
+# 🖩 Calculator Web Application
 
-## 파일 설명
+이 프로젝트는 간단한 **계산기 웹 애플리케이션**입니다. HTML, CSS, JavaScript를 사용하여 계산기 기능을 구현하였으며, **16진수(HEX)와 10진수(DEC) 간의 변환**도 지원합니다.
+
+---
+
+## 📂 파일 설명
 
 - **index.html**: 계산기의 전체 구조를 담당하는 HTML 파일입니다. 각 버튼에 해당하는 이벤트와 관련된 기능들을 정의합니다.
 - **style.css**: 계산기의 디자인을 설정하는 CSS 파일입니다. 계산기 배경, 버튼 스타일, 호버 효과 등을 포함하고 있습니다.
 - **script.js**: 계산기 기능을 구현하는 JavaScript 파일입니다. 숫자 입력, 연산 기능, 16진수와 10진수 간의 변환 등을 처리합니다.
 
-## 주요 기능
+---
+
+## ✨ 주요 기능
 
 1. **기본 계산 기능**: 
     - 덧셈(+), 뺄셈(-), 곱셈(×), 나눗셈(÷)을 지원합니다.
@@ -22,23 +27,11 @@
     - **AC** 버튼을 눌러 입력된 내용을 모두 지울 수 있습니다.
     - **←** 버튼을 눌러 마지막으로 입력된 문자를 삭제할 수 있습니다.
 
-## 사용 기술
+---
 
-- **HTML**: 계산기 UI를 작성하고 구조를 정의합니다.
-- **CSS**: 스타일링을 통해 계산기를 깔끔하고 직관적으로 만듭니다.
-    - 버튼 호버 효과 및 색상 강조를 통해 사용자의 편의성을 높였습니다.
-- **JavaScript**: 계산기의 주요 기능을 구현합니다.
-    - **`input()`**: 버튼을 클릭했을 때 숫자나 연산자를 입력합니다.
-    - **`clearDisplay()`**: 디스플레이를 지웁니다.
-    - **`deleteLast()`**: 마지막에 입력한 문자를 삭제합니다.
-    - **`convertToHex()`**: 디스플레이의 10진수를 16진수로 변환합니다.
-    - **`convertToDec()`**: 디스플레이의 16진수를 10진수로 변환합니다.
-    - **`calculateResult()`**: 입력된 수식을 계산합니다.
+## 💻 코드 예시
 
-## 코드 예시
-
-### index.html
-
+### **index.html**
 ```html
 <!DOCTYPE html>
 <html lang="ko">
@@ -77,19 +70,17 @@
             <button onclick="input('0')">0</button>
             <button class="erase" onclick="deleteLast()">←</button>
             <button class="equal"onclick="calculateResult()">=</button>
-
         </div>
     </div>
     <script src="script.js"></script>
 </body>
 </html>
 ```
-### 실행 화면 (계산기의 주요 버튼 UI)
-![ex_screenshot](./gif/무제.gif)
 
-### script.js
+---
 
-```js
+### **script.js**
+```javascript
 function input(value) {
     const display = document.getElementById("display");
     display.value += value;
@@ -129,11 +120,10 @@ function calculateResult() {
     }
 }
 ```
-### 실행 화면 (버튼을 눌러 디스플레이에 표시하고 계산하는 기능)
-![ex_screenshot](./gif/무제2.gif)
 
-### style.css
+---
 
+### **style.css**
 ```css
 /* 계산기 뒤에 배경색깔 */
 body {
@@ -202,7 +192,6 @@ button:nth-child(3) {
     background-color: #fff347; 
 }
 
-
 button:nth-child(4) {
     background-color: #ff0000; 
 }
@@ -210,8 +199,6 @@ button:nth-child(4) {
 .clear:hover {
     background-color: #ff477e; 
 }
-
-
 
 button:nth-child(5),
 button:nth-child(10),
@@ -224,7 +211,6 @@ button:nth-child(20)  {
     background-color: #477eff; 
 }
 
-
 button:nth-last-child(2){
     background-color: #3221cf; 
 }
@@ -233,7 +219,6 @@ button:nth-last-child(2){
     background-color: #b847ff; 
 }
 
-
 button:nth-last-child(1){
     background-color: #ef02d3; 
 }
@@ -241,7 +226,6 @@ button:nth-last-child(1){
 .equal:hover {
     background-color: #ff478a; 
 }
-
 
 /*ABCDE 색깔*/
 button:nth-last-child(25),
@@ -258,5 +242,15 @@ button:nth-last-child(4) {
 }
 ```
 
-### 실행 화면 (CSS를 적용하여 버튼의 크기와 글꼴 색상 등 UI 스타일링 적용)
-![ex_screenshot](./gif/무제3.gif)
+---
+
+## 🖼️ 실행 화면
+
+### **계산기의 주요 버튼 UI**
+![Calculator UI](./gif/무제.gif)
+
+### **버튼을 눌러 디스플레이에 표시하고 계산하는 기능**
+![Calculator Functionality](./gif/무제2.gif)
+
+### **CSS를 적용하여 버튼의 크기와 글꼴 색상 등 UI 스타일링**
+![Calculator Styling](./gif/무제3.gif)
