@@ -1,5 +1,5 @@
 
-# 🖩 Calculator Web Application
+# 🧮 Calculator Web Application
 
 이 프로젝트는 간단한 **계산기 웹 애플리케이션**입니다. HTML, CSS, JavaScript를 사용하여 계산기 기능을 구현하였으며, **16진수(HEX)와 10진수(DEC) 간의 변환**도 지원합니다.
 
